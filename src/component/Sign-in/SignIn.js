@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import FormInput from '../form-input/FormInput';
 import './signin.scss'
 import CustomButton from '../Custom-Button/CustomButton';
-import {signInWithGoogle} from '../firebase/firebase.utils';
+import {auth, signInWithGoogle} from '../firebase/firebase.utils';
 import {ReactComponent as Googleicon} from '../../Assets/seo-and-web.svg';
 
 
@@ -11,10 +11,16 @@ export class SignIn extends Component {
         email: '',
         password: '',
     }
-    handlSubmit = (event) => {
+    handlSubmit = async event => {
+        
         event.preventDefault();
-        this.setState({ email: '', password: '' })
-
+        const {email, password} = this.state
+        try{
+            await auth.signInWithEmailAndPassword(email,password);
+            this.setState({ email: '', password: '' })
+        }catch(error){
+            console.error(error);
+        }
     }
 
     handleChange = (event) => {
@@ -33,7 +39,7 @@ export class SignIn extends Component {
 
                     <FormInput type="password" handleChange={this.handleChange} name="password" label="Password" value={this.state.password} required />
                 <div className="signins">
-                    <CustomButton type="submit" >SignIN</CustomButton>
+                    <CustomButton type="submit" onClick={this.handlSubmit} >SignIN</CustomButton>
                     
                     <CustomButton style={{display:"flex",flexDirection:"row",width:"13vw",alignItems:"center",background:"#c62828"}} onClick={signInWithGoogle}><Googleicon style={{height:"5vh",width:"5vh",marginRight:"1vw"}}/><span >SignIn</span></CustomButton>
                     </div>
