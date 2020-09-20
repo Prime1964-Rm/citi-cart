@@ -1,0 +1,42 @@
+.collection-item{
+ display: flex;
+ flex-direction: column;
+ width: 22%px;
+ height: 350px;
+ width: 22%;
+ background-color: white; 
+
+ .back-image{
+    background-position: center;
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    margin-bottom: 5%;
+ }
+ .collection-footer{
+     display: flex;
+     flex-direction: row;
+     height: 5%;
+     font-weight: 600;
+     
+
+     .name{
+        width: 90%;
+        margin-bottom: 15px;
+     }
+
+     .price{
+        width: 10%;
+        margin-right: 2px;
+        
+     }
+ }
+}
+
+@media only screen and (max-width: 600px) {
+   .collection-item{
+      width: 100%;
+      margin-bottom: 8vh;
+   }
+
+}
