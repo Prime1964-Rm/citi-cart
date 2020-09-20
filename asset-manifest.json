@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/citi-cart/static/css/main.d3c646fb.chunk.css",
+    "main.js": "/citi-cart/static/js/main.5c0ba7cf.chunk.js",
+    "main.js.map": "/citi-cart/static/js/main.5c0ba7cf.chunk.js.map",
+    "runtime-main.js": "/citi-cart/static/js/runtime-main.ea179720.js",
+    "runtime-main.js.map": "/citi-cart/static/js/runtime-main.ea179720.js.map",
+    "static/js/2.1afe3fdb.chunk.js": "/citi-cart/static/js/2.1afe3fdb.chunk.js",
+    "static/js/2.1afe3fdb.chunk.js.map": "/citi-cart/static/js/2.1afe3fdb.chunk.js.map",
+    "index.html": "/citi-cart/index.html",
+    "precache-manifest.f51c6eb0a82b1ac7d86980c00558506c.js": "/citi-cart/precache-manifest.f51c6eb0a82b1ac7d86980c00558506c.js",
+    "service-worker.js": "/citi-cart/service-worker.js",
+    "static/css/main.d3c646fb.chunk.css.map": "/citi-cart/static/css/main.d3c646fb.chunk.css.map",
+    "static/js/2.1afe3fdb.chunk.js.LICENSE.txt": "/citi-cart/static/js/2.1afe3fdb.chunk.js.LICENSE.txt",
+    "static/media/citilogo.ed28accb.svg": "/citi-cart/static/media/citilogo.ed28accb.svg",
+    "static/media/seo-and-web.53a94e53.svg": "/citi-cart/static/media/seo-and-web.53a94e53.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea179720.js",
+    "static/js/2.1afe3fdb.chunk.js",
+    "static/css/main.d3c646fb.chunk.css",
+    "static/js/main.5c0ba7cf.chunk.js"
+  ]
+}
