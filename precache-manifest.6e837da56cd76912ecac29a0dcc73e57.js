@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abe3dd14d91f899b9700595e4ebcdc94",
+    "revision": "f5451e93e53ff5118d95b083a4e19c26",
     "url": "/citi-cart/index.html"
   },
   {
-    "revision": "1829d13642ec027da69c",
+    "revision": "8fe5a966ca596d469a6f",
     "url": "/citi-cart/static/css/main.8f4d3317.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/citi-cart/static/js/2.314c49d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1829d13642ec027da69c",
-    "url": "/citi-cart/static/js/main.bf520af8.chunk.js"
+    "revision": "8fe5a966ca596d469a6f",
+    "url": "/citi-cart/static/js/main.3cdc0d40.chunk.js"
   },
   {
     "revision": "1f0fce99d9237b4cde3a",
