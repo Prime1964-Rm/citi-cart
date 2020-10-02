@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "181ac475e495bf969cc5286bfe4df32a",
+    "revision": "abe3dd14d91f899b9700595e4ebcdc94",
     "url": "/citi-cart/index.html"
   },
   {
-    "revision": "429c3e134200940585aa",
-    "url": "/citi-cart/static/css/main.fed0e348.chunk.css"
+    "revision": "1829d13642ec027da69c",
+    "url": "/citi-cart/static/css/main.8f4d3317.chunk.css"
   },
   {
-    "revision": "562bf17b8adb3332f709",
-    "url": "/citi-cart/static/js/2.e64cb359.chunk.js"
+    "revision": "3b4a8af5ae3c3ea25af0",
+    "url": "/citi-cart/static/js/2.314c49d9.chunk.js"
   },
   {
     "revision": "d0b13a04dd0dc4c851ad16fad1cc6f51",
-    "url": "/citi-cart/static/js/2.e64cb359.chunk.js.LICENSE.txt"
+    "url": "/citi-cart/static/js/2.314c49d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "429c3e134200940585aa",
-    "url": "/citi-cart/static/js/main.2eedfd70.chunk.js"
+    "revision": "1829d13642ec027da69c",
+    "url": "/citi-cart/static/js/main.bf520af8.chunk.js"
   },
   {
     "revision": "1f0fce99d9237b4cde3a",
