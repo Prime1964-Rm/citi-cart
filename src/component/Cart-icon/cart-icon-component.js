@@ -14,15 +14,11 @@ const mapDispatchToProps = dispatch => ({
     toggleHidden : () => dispatch(toggleHidden())
 })
 
-const mapStateToProps = ({cart: {cartItems}}) =>{
-    let totalCount=0
-        for(let i=0; i<cartItems.length; i++){
-        totalCount= cartItems[i].quantity + totalCount
-    }
 
-    return {
-        itemCount: totalCount
-    }
-}
+const mapStateToProps = ({cart: {cartItems}}) =>({
+    itemCount: cartItems.reduce(
+        (AccumulatedQuantity, cartItem) => AccumulatedQuantity + cartItem.quantity,0
+    )
+})
 
 export default connect(mapStateToProps,mapDispatchToProps)(CartIcon);
